@@ -5,6 +5,7 @@
     <title>ngStarters</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css" />
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
@@ -15,6 +16,7 @@
 
     <!-- build:css({.tmp/serve,src}) styles/app.css -->
     <!-- inject:css -->
+    <!-- UIkit CSS -->
     <!-- css files will be automatically insert here -->
     <!-- endinject -->
     <!-- endbuild -->
@@ -25,6 +27,12 @@
     <![endif]-->
 
     <div ui-view></div>
+    <!-- jQuery is required -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit-icons.min.js"></script>
 
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
@@ -34,6 +42,7 @@
 
     <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
     <!-- inject:js -->
+
     <!-- js files will be automatically insert here -->
     <!-- endinject -->
 
